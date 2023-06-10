@@ -1,5 +1,6 @@
 # Edge_AI_Final
-<h2>Create ENV</h2>
+Original repo: https://github.com/Linaom1214/TensorRT-For-YOLO-Series, https://github.com/WongKinYiu/yolov7 
+## Create ENV##
 
 ## SET UP ENVIRONMENT
 ``` 

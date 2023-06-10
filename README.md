@@ -1,2 +1,2 @@
 # Edge_AI_Final
-<h1>HI</h1>
+<h2>HI</h2>

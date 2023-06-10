@@ -16,7 +16,7 @@ if __name__ == '__main__':
     parser.add_argument("-e", "--engine",default="./best_fp16.trt", help="TRT engine Path") 
     parser.add_argument("-i", "--image", help="image path")
     parser.add_argument("-o", "--output", help="image output path")
-    parser.add_argument("-v", "--video",default='./video0.mp4' , help="video path or camera index ")
+    parser.add_argument("-v", "--video",default='../inference_video/video0.mp4' , help="video path or camera index ")
     parser.add_argument("-w", "--webcam", default=False)
     parser.add_argument("--end2end", default=True, action="store_true",
                         help="use end2end engine")

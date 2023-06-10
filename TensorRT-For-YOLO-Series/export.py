@@ -270,11 +270,11 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-o", "--onnx", default = 'C:\\Users\\cjweibb\\anaconda3\\envs\\edge_ai_yolov7\\yolov7\\yolov7s-face.onnx',help="The input ONNX model file to load")
+    parser.add_argument("-o", "--onnx",help="The input ONNX model file to load")
     parser.add_argument("-p", "--precision", default="fp32", choices=["fp32", "fp16", "int8"],
                         help="The precision mode to build in, either 'fp32', 'fp16' or 'int8', default: 'fp16'")
     #tmp = "precision"
-    parser.add_argument("-e", "--engine", default = './v7_fp32.trt', help="The output path for the TRT engine")
+    parser.add_argument("-e", "--engine", default = '', help="The output path for the TRT engine")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable more verbose log output")
     parser.add_argument("-w", "--workspace", default=400, type=int, help="The max memory workspace size to allow in Gb, "
                                                                        "default: 1")
